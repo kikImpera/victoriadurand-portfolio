@@ -50,8 +50,6 @@ body {
   transform: translateY(0);
 }
 
-.nda_icon {
-  width: 20px;
-  height: 30px;
-  object-fit: contain;
+.font-link{
+  font-family: "Josefin Sans", sans-serif;
 }

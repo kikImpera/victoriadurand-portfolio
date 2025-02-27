@@ -1,4 +1,5 @@
 import "./index.css";
+import "./fonts.css";
 import { useState } from "react";
 import { LoadingScreen } from "./components/LoadingScreen";
 import { Navbar } from "./components/Navbar";
