@@ -14,11 +14,15 @@ import { Gallery } from "./components/sections/Gallery";*/
 
 import { Projects } from "./components/sections/Projects";
 import { Contact } from "./components/sections/Contact";
-import { Clients } from "./components/sections/Clients";
+{
+  /*import { Clients } from "./components/sections/Clients";*/
+}
 import { Footer } from "./components/Footer";
 
 function App() {
-  const [isLoaded, setIsLoaded] = useState(false);
+  {
+    /*const [isLoaded, setIsLoaded] = useState(false);*/
+  }
   const [menuOpen, setMenuOpen] = useState(false);
   return (
     <div>
