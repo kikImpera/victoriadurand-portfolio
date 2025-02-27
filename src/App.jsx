@@ -18,9 +18,7 @@ import { Clients } from "./components/sections/Clients";
 import { Footer } from "./components/Footer";
 
 function App() {
-  {
-    /*const [isLoaded, setIsLoaded] = useState(false);*/
-  }
+  const [isLoaded, setIsLoaded] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
   return (
     <div>
@@ -28,7 +26,9 @@ function App() {
       {""}*/}
       <div
         className={`min-h-screen transition-opacity duration-700 ${
-          isLoaded ? "opacity-100" : "opacity-0"
+          {
+            /*isLoaded ? "opacity-100" : "opacity-0"*/
+          }
         } bg-black text-gray-100`}
       >
         <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
